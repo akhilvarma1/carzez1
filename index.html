@@ -27,6 +27,92 @@ padding:40px;
   {
   float:center;
   }
+    * {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.back1
+{
+background-image:url('card1.png');
+width:100%;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.back2
+{
+background-image:url('card2.png');
+width:100%;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.back3
+{
+background-image:url('card4.png');
+width:100%;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+.button:hover{
+ background-color:black;
+ }
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
   </style>
 <body>
   <div  style="background-color:dodgerblue;" class="jumbotron text-center">
@@ -81,6 +167,51 @@ padding:40px;
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" >BMW.</a>
         </h4>
       </div>
+      <div class="back1">
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Why?</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>you are choosing this website</b></h1>
+      <p><span style="font-size:36px">This mainly contains</span> the best cars & bikes with comparitve prises,specifications,Brands etc.you can desired car or bikes in this website for further information sign up with us for latest updates in our website</p>
+      <button class="button">Sign up or log in</button>
+    </div>
+    <div class="column-33">
+    </div>
+  </div>
+</div>
+</div>
+<div class="back2">
+<div class="container" >
+  <div class="row">
+    <div class="column-33">
+      <img src="blackprofile.png" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Furtherly</b></h1>
+      <h1 class="large-font" style="color:red;"><b>What you can do ?</b></h1>
+      <p><span style="font-size:24px">sign up with us </span>Get the recent updates of each and every product of each company.You can get cars and bikes click below the bike updates you can explire the best content of bikes. </p>
+      <button class="button"  style="background-color:red">Bikes</button>
+    </div>
+  </div>
+</div>
+</div>
+ <div class="back3">
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Enjoy</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>By surfing .</b></h1>
+      <p><span style="font-size:36px">on our website</span>enjoy the best cars and bikes in this web clik below to get more contents and updates in this website.</p>
+      <button class="button">click here</button>
+    </div>
+   
+    <div class="column-33">
+        
+    </div>
+  </div>
+</div>
+</div>
       <div id="collapse1" class="panel-collapse collapse in">
         <div class="panel-body"> latest BMW cars with prizez list that you may likeBMW X1Rs. 35.9 - 42.9 Lakh*<br>
 BMW X5Rs. 73.3 - 84.44 Lakh*<br><br>
