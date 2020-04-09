@@ -93,6 +93,43 @@ img {
     margin: auto;
   }
 }
+    .grad1 {
+animation-name: colorchange;   
+    animation-duration: 15s;
+     animation-iteration-count: infinite;
+    height:100vh;
+}
+@keyframes colorchange {
+    0% {background-image:linear-gradient(-45deg,#a1c4fd , #c2e9fb);  }
+     50%{background-image:linear-gradient(-45deg,#B7F8DB,#50A7C2);  }
+    100%{background-image:linear-gradient(-45deg,#ff9a9e,#fecfef);  }
+}
+.grad2 {
+ animation-name: colorchange;   
+    animation-duration: 15s;
+     animation-iteration-count: infinite;
+    height:100vh;
+}
+@keyframes colorchange {
+    
+     0%{background-image:linear-gradient(-45deg,#B7F8DB,#50A7C2);}
+     50% {background-image:linear-gradient(-45deg,#a1c4fd , #c2e9fb);  }
+    100%{background-image:linear-gradient(-45deg,#ff9a9e,#fecfef);  }
+}
+.grad3{
+    animation-name: colorchange;   
+    animation-duration: 5s;
+    height:100vh;
+    
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: colorchange; 
+}
+@keyframes colorchange {
+    
+     0%{background-image:linear-gradient(-45deg,#96deda ,#50c9c3);}
+     50% {background-image:linear-gradient(-45deg,#a1c4fd , #c2e9fb);  }
+    100%{background-image:linear-gradient(-45deg,#ff9a9e,#fecfef);  }
+}
   </style>
 <body>
   <div  style="background-color:dodgerblue;" class="jumbotron text-center">
@@ -138,7 +175,7 @@ img {
     </form>
   </div>
 </nav>
-   
+   <div class="grad1">
 <div class="cont">
   <div class="row">
     <div class="column-66">
@@ -152,8 +189,8 @@ img {
     </div>
   </div>
 </div>
-
-
+  </div>
+<div class="grad2">
 <div class="cont" >
   <div class="row">
     <div class="column-33">
@@ -167,8 +204,8 @@ img {
     </div>
   </div>
 </div>
-
- 
+  </div>
+ <div class="grad3">
 <div class="cont">
   <div class="row">
     <div class="column-66">
@@ -182,7 +219,7 @@ img {
     </div>
   </div>
 </div>
-
+  </div>
   <div class="pad">
  <div class="container">
   <div class="panel-group" id="accordion">
